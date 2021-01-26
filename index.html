@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Brewful</title>
+    <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Find a brewery</h1>
+    <form action="#" class="js-search-form">
+      <label for="query">Search by state:</label>
+      <input type="text" class="js-query" placeholder="New York" id="query">
+      <button type="submit">Search</button>
+    </form>
+    <main class="js-search-results hidden">
+      <ul class="result-list"></ul>  
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
